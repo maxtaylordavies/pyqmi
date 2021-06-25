@@ -1,0 +1,11 @@
+**/.DS_Store
+env
+temp.ipynb
+*.jpg
+*.eps
+*.txt
+Data/
+.vscode/
+.idea/
+__pycache__/
+allen_brain_qmi.egg-info/
