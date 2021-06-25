@@ -1,4 +1,4 @@
-# AllenBrain_dataset
+# pyQMI
 
 ## Getting started
 
@@ -69,7 +69,7 @@ Here's an example job script for running on the HPC. Currently, the code is unab
 #PBS -l walltime=00:30:00
 #PBS -l select=1:ncpus=4:mem=24gb:ngpus=1:gpu_type=RTX6000
 
-cd /rds/general/user/mt4217/home/fyp/code/AllenBrain_dataset/scripts
+cd /rds/general/user/mt4217/home/fyp/code/pyqmi/scripts
 
 module load cuda/10.1
 module load cudnn/7.0
